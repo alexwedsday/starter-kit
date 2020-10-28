@@ -10,7 +10,6 @@ import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ListaCrudModule } from './lista-crud/lista-crud.module';
 
 @NgModule({
   imports: [
@@ -23,7 +22,6 @@ import { ListaCrudModule } from './lista-crud/lista-crud.module';
     SharedModule,
     ShellModule,
     HomeModule,
-    ListaCrudModule,
     AppRoutingModule, // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent],
